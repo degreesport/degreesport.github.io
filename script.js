@@ -116,7 +116,7 @@ class App {
 		return new Promise((resolve, reject) => {
 			loadModel({
 				id: "Cube",
-				url: "file:///Users/eamon/Desktop/dist/workingdraft.obj"
+				url: "https://degreesport.github.io/workingdraft.obj"
 			}).then(model => {
 				this.model = model.media;
 				this.model.children[0].material = material;
